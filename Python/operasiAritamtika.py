@@ -45,11 +45,10 @@ print (a,"//",b,"=",hasil)
 3. perkalian, modulus & floor division *, **, % & //
 4. tambah dan pengurangan + & -
 """
-
 x = 3
 y = 2
 z = 4
-
+#masa
 hasil = x ** y * (z + x) / y - y % z // x
 print (x,'**',y,'*''(',z,'+',x,')''/',y,'-',y,'%',z,'//',x,'=',hasil)
 
