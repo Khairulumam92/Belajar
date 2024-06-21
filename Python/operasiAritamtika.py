@@ -56,5 +56,5 @@ hasil = x + y * z
 print (x,'+' ,y, '*',z, '=',hasil )
 
 hasil = (x + y) * z
-print ('(' ,x,'+' ,y, ')' '*',z, '=', hasil)
+print ('(' ,x,'+' ,y, ')' '*',z, '=',hasil)
 
