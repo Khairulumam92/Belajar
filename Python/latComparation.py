@@ -20,7 +20,6 @@ print("kurang dari 11 : ", isKurang)
 # akhir = isLebih and isKurang
 # print("maka hasilnya adalah :", akhir)
 
-
 # ++++++0----5++++++8-------11++++
 print("++++++0----5++++++8-------11++++++")
 inputUser2 = float(input("masukkan angka kedua :"))

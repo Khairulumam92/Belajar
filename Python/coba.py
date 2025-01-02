@@ -14,9 +14,9 @@ tipe_string = "umam"
 print("nilai string = ", tipe_string)
 print("tipe data : ", type(tipe_string))
 
+
 #tipe data boolean
 tipe_bool = True
 print("nilai bool = ", tipe_bool)
 print("tipe data : ", type(tipe_bool))
-
 
