@@ -1,5 +1,4 @@
 public class ExceptionHandlingExample {
-public class ExceptionHandlingExample {
     public static void exceptionHandlingExample() {
         try {
             int divisionResult = divideNumbers(10, 0);
@@ -13,6 +12,4 @@ public class ExceptionHandlingExample {
     public static int divideNumbers(int a, int b) {
         return a / b;
     }
-}
-    
 }

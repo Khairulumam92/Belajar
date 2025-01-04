@@ -1,5 +1,4 @@
 public class Person {
-public class Person {
     String name;
     int age;
 
@@ -13,6 +12,4 @@ public class Person {
     void displayInfo() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
-}
-    
 }

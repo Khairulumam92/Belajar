@@ -24,5 +24,3 @@ class Car implements Vehicle {
         System.out.println("Car is stopping");
     }
 }
-
-}
