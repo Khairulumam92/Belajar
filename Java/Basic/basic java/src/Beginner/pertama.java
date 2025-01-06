@@ -14,5 +14,9 @@ public class pertama {
 
         System.out.println("Nilai b: " + b);
         input.close();
+
+        int c = a + b;
+
+        System.out.println("Hasil a + b: " + c);
     }
 }
