@@ -18,5 +18,11 @@ public class pertama {
         int c = a + b;
 
         System.out.println("Hasil a + b: " + c);
+
+        if (c > 10) {
+            System.out.println("Hasil lebih dari 10");
+        } else {
+            System.out.println("Hasil kurang dari 10");
+        }
     }
 }
