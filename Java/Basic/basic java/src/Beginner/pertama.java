@@ -16,6 +16,7 @@ public class pertama {
         input.close();
 
         int c = a + b;
+        int i = c;
 
         System.out.println("Hasil a + b: " + c);
 
@@ -23,6 +24,10 @@ public class pertama {
             System.out.println("Hasil lebih dari 10");
         } else {
             System.out.println("Hasil kurang dari 10");
+        }
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Perulangan ke-" + i);
         }
     }
 }
