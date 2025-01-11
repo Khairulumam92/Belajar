@@ -8,7 +8,7 @@ public class pertama {
         System.out.println("Nilai a: " + a);
 
         Scanner input = new Scanner(System.in);
-        
+
         System.out.print("Masukkan nilai b: ");
         int b = input.nextInt();
 
@@ -16,11 +16,10 @@ public class pertama {
         input.close();
 
         int c = a + b;
-        int i = c;
 
         System.out.println("Hasil a + b: " + c);
 
-        if (c > 10) {
+        if (i > 10) {
             System.out.println("Hasil lebih dari 10");
         } else {
             System.out.println("Hasil kurang dari 10");
@@ -29,5 +28,6 @@ public class pertama {
         for (int i = 0; i < 5; i++) {
             System.out.println("Perulangan ke-" + i);
         }
+
     }
 }
