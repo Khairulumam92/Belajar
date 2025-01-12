@@ -29,5 +29,6 @@ public class pertama {
             System.out.println("Perulangan ke-" + i);
         }
 
+        Exception e = new Exception("Error");
     }
 }
