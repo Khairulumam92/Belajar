@@ -28,7 +28,5 @@ public class pertama {
         for (int i = 0; i < 5; i++) {
             System.out.println("Perulangan ke-" + i);
         }
-
-        Exception e = new Exception("Error");
     }
 }
