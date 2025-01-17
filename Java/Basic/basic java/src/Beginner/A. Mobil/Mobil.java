@@ -1,13 +1,11 @@
-package Beginner;
+package Beginner.A.Mobil;
 
-public class Mobil {
-    // Atribut
+class Mobil {
     String merek;
     String model;
     String roda;
     int tahun;
 
-    // Metode
     void tampilkanInfo() {
         System.out.println("Merek: " + merek + ", Model: " + model + ", Roda: " + roda + ", Tahun: " + tahun);
     }

@@ -1,4 +1,6 @@
-package Beginner;
+package Beginner.A.Mobil;
+
+import Beginner.Mobil;
 
 public class Main {
     public static void main(String[] args) {
