@@ -23,8 +23,17 @@ public class Main {
         mobilDia.roda = "4";
         mobilDia.tahun = 2018;
 
+        System.out.println("===Method tampilkanInfo===");
+        //panggil method tampilkanInfo()
         mobilSaya.tampilkanInfo(); // Output: Merek: Toyota, Model: Camry, Tahun: 2020
         mobilKamu.tampilkanInfo(); // Output: Merek: Honda, Model: Civic, Tahun: 2019
         mobilDia.tampilkanInfo(); // Output: Merek: Suzuki, Model: Ertiga, Tahun: 2018
+
+        System.out.println("===Method tampilkanNama===");
+        //panggil method tampilkanNama()
+        mobilSaya.tampilkanNama(); // Output: Nama Mobil: Toyota Camry
+        mobilKamu.tampilkanNama(); // Output: Nama Mobil: Honda Civic
+        mobilDia.tampilkanNama(); // Output: Nama Mobil: Suzuki Ertiga
+    
     }
 }

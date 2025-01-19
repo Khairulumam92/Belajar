@@ -9,4 +9,8 @@ class Mobil {
     void tampilkanInfo() {
         System.out.println("Merek: " + merek + ", Model: " + model + ", Roda: " + roda + ", Tahun: " + tahun);
     }
+
+    void tampilkanNama(){
+        System.out.println("Nama Mobil: " + merek + " " + model);
+    }
 }
