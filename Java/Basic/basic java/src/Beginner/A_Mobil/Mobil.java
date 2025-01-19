@@ -1,4 +1,4 @@
-package Beginner.A.Mobil;
+package Beginner.A_Mobil;
 
 class Mobil {
     String merek;
