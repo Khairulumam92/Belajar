@@ -5,7 +5,22 @@ public class Main {
         // Operator Aritmatika
 
         System.out.println("===operasi penambahan===");
-        Method penjumlahan = new penjumlahan();
-        Met.penjumlahan();
+        Operator penjumlahan = new Operator();
+        penjumlahan.a = 10;
+        penjumlahan.b = 5;
+        penjumlahan.penjumlahan();
+
+        System.out.println("===operasi pengurangan===");
+        Operator pengurangan = new Operator();
+        pengurangan.a = 50;
+        pengurangan.b = 20;
+        pengurangan.pengurangan();
+
+        System.out.println("===Operasi perkalian===");
+        Operator perkalian = new Operator();
+        perkalian.a = 10;
+        perkalian.b = 20;
+        perkalian.perkalian();
+
     }
 }

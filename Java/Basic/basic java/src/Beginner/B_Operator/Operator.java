@@ -1,9 +1,9 @@
 package Beginner.B_Operator;
 
-public class Method {
-    int a = 10;
-    int b = 5;
-
+public class Operator {
+    int a;
+    int b;
+    
     void penjumlahan() {
         int hasil = a + b;
         System.out.println("Hasil penjumlahan: " + hasil);
