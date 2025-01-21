@@ -8,7 +8,7 @@ public class Main {
         System.out.println("===Mengambil data array===");
         System.out.println("Data array index ke-0: " + arrayAngka[0]); // Output: 1
         System.out.println("Data array index ke-5: " + arrayAngka[5]); // Output: 6
-        System.out.println("Data array index ke-5: " + arrayAngka[12]); // Output: 11
+        System.out.println("Data array index ke-5: " + arrayAngka[12]); // Output: 13
 
         // Menampilkan jumlah semua elemen array
         System.out.println("===Jumlah semua elemen array===");
