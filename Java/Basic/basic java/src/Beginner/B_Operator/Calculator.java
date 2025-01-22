@@ -1,0 +1,60 @@
+package Beginner.B_Operator;
+
+import java.util.Scanner;
+
+public class Calculator {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("=== Kalkulator sederhana ===");
+        System.out.println("Pilih operasi: 1. Tambah 2. Kurang 3. Kali 4. Bagi");
+        int choice = scan.nextInt();
+
+        System.out.println("Masukkan angka pertama:");
+        int A = scan.nextInt();
+        System.out.println("Masukkan angka kedua:");
+        int B = scan.nextInt();
+
+        switch (choice) {
+            case 1:
+                System.out.println("Hasil: " + tambah(A, B));
+                break;
+            case 2:
+                System.out.println("Hasil: " + kurang(A, B));
+                break;
+            case 3:
+                System.out.println("Hasil: " + kali(A, B));
+                break;
+            case 4:
+                System.out.println("Hasil: " + bagi(A, B));
+                break;
+            default:
+                System.out.println("Pilihan tidak valid");
+                break;
+        }
+    }
+
+    // Metode untuk operasi penjumlahan
+    public static int tambah(int A, int B) {
+        return A + B;
+    }
+
+    // Metode untuk operasi pengurangan
+    public static int kurang(int A, int B) {
+        return A - B;
+    }
+
+    // Metode untuk operasi perkalian
+    public static int kali(int A, int B) {
+        return A * B;
+    }
+
+    // Metode untuk operasi pembagian
+    public static int bagi(int A, int B) {
+        if (B == 0) {
+            System.out.println("Error: Pembagian dengan nol");
+            return 0;
+        }
+        return A / B;
+    }
+}

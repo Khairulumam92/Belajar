@@ -8,11 +8,11 @@ public class Main {
         System.out.println("===Mengambil data array===");
         System.out.println("Data array index ke-0: " + arrayAngka[0]); // Output: 1
         System.out.println("Data array index ke-5: " + arrayAngka[5]); // Output: 6
-        System.out.println("Data array index ke-5: " + arrayAngka[12]); // Output: 13
+        System.out.println("Data array index ke-12: " + arrayAngka[12]); // Output: 13
 
         // Menampilkan jumlah semua elemen array
         System.out.println("===Jumlah semua elemen array===");
-        System.out.println("Jumlah: " + sumArray(arrayAngka)); // Output: 55
+        System.out.println("Jumlah: " + sumArray(arrayAngka)); // Output: 91
 
         // Menampilkan array yang disalin
         System.out.println("===Array yang disalin===");
@@ -20,11 +20,11 @@ public class Main {
         for (int num : copiedArray) {
             System.out.print(num + " ");
         }
-        System.out.println(); // Output: 1 2 3 4 5 6 7 8 9 10
+        System.out.println(); // Output: 1 2 3 4 5 6 7 8 9 10 11 12 13
 
         // Menampilkan nilai maksimum dalam array
         System.out.println("===Nilai maksimum dalam array===");
-        System.out.println("Nilai maksimum: " + findMax(arrayAngka)); // Output: 10
+        System.out.println("Nilai maksimum: " + findMax(arrayAngka)); // Output: 13
     }
 
     // Metode untuk menghitung jumlah semua elemen array
