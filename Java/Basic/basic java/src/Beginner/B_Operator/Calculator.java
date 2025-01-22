@@ -7,7 +7,12 @@ public class Calculator {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("=== Kalkulator sederhana ===");
-        System.out.println("Pilih operasi: 1. Tambah 2. Kurang 3. Kali 4. Bagi");
+        System.out.println("Menu operasi:");
+        System.out.println("1. Tambah");
+        System.out.println("2. Kurang");
+        System.out.println("3. Kali");
+        System.out.println("4. Bagi");
+        System.out.print("Masukkan Pilihan : ");
         int choice = scan.nextInt();
 
         System.out.println("Masukkan angka pertama:");
