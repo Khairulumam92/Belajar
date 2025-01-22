@@ -6,6 +6,8 @@ public class Operator {
     
     void penjumlahan() {
         int hasil = a + b;
+        //int a = input.nextInt();
+        //int b = input.nextInt();
         System.out.println("Hasil penjumlahan: " + hasil);
     }
 
@@ -23,4 +25,6 @@ public class Operator {
         int hasil = a / b;
         System.out.println("Hasil pembagian: " + hasil);
     }
+
+    
 }

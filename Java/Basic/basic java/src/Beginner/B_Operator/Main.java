@@ -1,13 +1,20 @@
 package Beginner.B_Operator;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Operator Aritmatika
+        Scanner input = new Scanner(System.in);
 
+        //Menu
+
+        // Operator Aritmatika
         System.out.println("===operasi penambahan===");
         Operator penjumlahan = new Operator();
-        penjumlahan.a = 10;
-        penjumlahan.b = 5;
+        int a = input.nextInt();
+        int b = input.nextInt();
+        //penjumlahan.a;
+        // penjumlahan.b;
         penjumlahan.penjumlahan();
 
         System.out.println("===operasi pengurangan===");
@@ -21,6 +28,8 @@ public class Main {
         perkalian.a = 10;
         perkalian.b = 20;
         perkalian.perkalian();
+
+        
 
     }
 }
