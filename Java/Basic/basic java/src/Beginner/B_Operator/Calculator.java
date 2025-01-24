@@ -22,7 +22,7 @@ public class Calculator {
 
         switch (choice) {
             case 1:
-                System.out.println("Hasil: " + tambah(A, B));
+                tambah(A, B);
                 break;
             case 2:
                 System.out.println("Hasil: " + kurang(A, B));
@@ -40,8 +40,8 @@ public class Calculator {
     }
 
     // Metode untuk operasi penjumlahan
-    public static int tambah(int A, int B) {
-        return A + B;
+    void tambah(int A, int B) {
+        System.out.println("Hasil: " + tambah(A, B));
     }
 
     // Metode untuk operasi pengurangan
