@@ -1,4 +1,4 @@
-package Beginner.B_Operator;
+package Operator;
 
 public class Operator {
     int a;
