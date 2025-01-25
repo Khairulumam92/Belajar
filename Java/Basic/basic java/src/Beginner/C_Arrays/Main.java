@@ -1,4 +1,4 @@
-package Beginner.C_Data;
+package Beginner.C_Arrays;
 
 public class Main {
     public static void main(String[] args) {
