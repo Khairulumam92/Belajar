@@ -13,6 +13,7 @@ public class Resto {
         
         int hargaMakanan = 0;
         int hargaMinuman = 0;
+        int UangPembayaran = 0;
         
         switch (pilMakanan) {
             case 1:
@@ -48,18 +49,26 @@ public class Resto {
             System.out.println("Pilihan tidak valid!");
                 break;
         }
+
+        System.out.print("Masukkan uang pembayaran :");
+        UangPembayaran = scanner.nextInt();
         
         System.out.print("Apakah anda adalah member(y/n)? :");
         String isMember = scanner.next();
 
         int totalHarga = 0;
 
-        if (isMember.equalsIgnoreCase("y || Y")) {
+        if (isMember.equalsIgnoreCase("y")) {
             totalHarga = (hargaMakanan + hargaMinuman) - (hargaMakanan + hargaMinuman) * 10 / 100;
+            System.out.println("Total yang harus dibayar: " + totalHarga );
+            System.out.println("Kembalian : " + (UangPembayaran - totalHarga));
         } else {
             totalHarga = hargaMakanan + hargaMinuman;
+            System.out.println("Total yang harus dibayar: " + totalHarga );
+            System.out.println("Kembalian : " + (UangPembayaran - totalHarga));
         }
         
-        System.out.println("Total yang harus dibayar: " + totalHarga );
+        scanner.close();
+
     }
 }
