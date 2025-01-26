@@ -13,7 +13,8 @@ public class Resto {
         
         int hargaMakanan = 0;
         int hargaMinuman = 0;
-        int UangPembayaran = 0;
+        float UangPembayaran = 0;
+        float totalHarga = 0;
         
         switch (pilMakanan) {
             case 1:
@@ -50,22 +51,22 @@ public class Resto {
                 break;
         }
 
-        System.out.print("Masukkan uang pembayaran :");
+        System.out.print("Masukkan uang pembayaran : Rp. ");
         UangPembayaran = scanner.nextInt();
         
         System.out.print("Apakah anda adalah member(y/n)? :");
         String isMember = scanner.next();
 
-        int totalHarga = 0;
+        System.out.println("=== Struk Pembayaran ===");
 
         if (isMember.equalsIgnoreCase("y")) {
             totalHarga = (hargaMakanan + hargaMinuman) - (hargaMakanan + hargaMinuman) * 10 / 100;
             System.out.println("Total yang harus dibayar: " + totalHarga );
-            System.out.println("Kembalian : " + (UangPembayaran - totalHarga));
+            System.out.println("Kembalian : Rp. " + (UangPembayaran - totalHarga));
         } else {
             totalHarga = hargaMakanan + hargaMinuman;
-            System.out.println("Total yang harus dibayar: " + totalHarga );
-            System.out.println("Kembalian : " + (UangPembayaran - totalHarga));
+            System.out.println("Total yang harus dibayar: Rp. " + totalHarga );
+            System.out.println("Kembalian : Rp. " + (UangPembayaran - totalHarga));
         }
         
         scanner.close();
