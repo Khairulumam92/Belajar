@@ -12,7 +12,7 @@ public class hitungAngkaN {
         System.out.print("Masukkan Angka N : ");
         angkaN = input.nextInt();
 
-        for (int i = angkaAwal; i < angkaN; i++) {
+        for (int i = angkaAwal; i <= angkaN; i++) {
             totalAngka += i;
         }
 
