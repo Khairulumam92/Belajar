@@ -15,5 +15,8 @@ public class Condition {
 
         if (nilaiPertama > nilaiKedua && iya) {
             System.out.println("Nilai benar");
-    }
+        }else{
+            System.out.println("Nilai salah");
+        }
+
 }
