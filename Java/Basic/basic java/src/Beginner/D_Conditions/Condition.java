@@ -11,9 +11,9 @@ public class Condition {
             System.out.println("Nilai pertama lebih kecil dari nilai kedua");
         }
 
-        boolean isTrue = true;
+        boolean iya = true, tidak = false;
 
-        if (isTrue) {
+        if (nilaiPertama > nilaiKedua && iya) {
             System.out.println("Nilai benar");
     }
 }
