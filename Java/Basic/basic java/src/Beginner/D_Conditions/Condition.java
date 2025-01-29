@@ -10,5 +10,10 @@ public class Condition {
         }else{
             System.out.println("Nilai pertama lebih kecil dari nilai kedua");
         }
+
+        boolean isTrue = true;
+
+        if (isTrue) {
+            System.out.println("Nilai benar");
     }
 }
