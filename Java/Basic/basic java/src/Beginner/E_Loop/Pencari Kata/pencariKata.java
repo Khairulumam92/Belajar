@@ -11,13 +11,9 @@ public class pencariKata {
         System.out.print("Masukkan Kata yang dicari : ");
         String kata = input.nextLine();
 
-
-
-
         System.out.println("=== Hasil ===");
         System.out.println("Kata " + kata + " ditemukan sebanyak " + countWord(kalimat, kata) + " kali");
         System.out.println("Terimkasih telah menggunakan program ini");
-
 
     }
 
