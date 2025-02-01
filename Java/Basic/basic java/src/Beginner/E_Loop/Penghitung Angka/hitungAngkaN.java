@@ -13,13 +13,7 @@ public class hitungAngkaN {
         System.out.print("Masukkan Angka N : ");
         angkaN = input.nextInt();
 
-        while (angkaAwal <= angkaN) {
-            totalAngka += angkaAwal;
-            angkaAwal++;
-        }
-
         System.out.println("=== Hasil ===");
         System.out.println("Jumlah angka dari 1 sampai " + angkaN + " adalah : " + totalAngka);
-        System.out.println("Terimkasih telah menggunakan program ini");
     }
 }
