@@ -13,7 +13,6 @@ public class dataAgen {
 
         System.out.println("Daftar Agen :");
         displayAgents(agents);
-
         System.out.println("Daftar Agen setelah perubahan:");
 
         System.out.println("program selesai");
@@ -27,4 +26,5 @@ public class dataAgen {
             }
         }
     }
+    system.out.println("program selesai");
 }}
