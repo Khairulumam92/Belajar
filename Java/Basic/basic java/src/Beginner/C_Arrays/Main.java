@@ -26,6 +26,7 @@ public class Main {
         System.out.println("===Nilai maksimum dalam array===");
         System.out.println("Nilai maksimum: " + findMax(arrayAngka)); // Output: 13
         System.out.println("Program selesai");
+        System.out.println("terima kasih");
     }
 
     // Metode untuk menghitung jumlah semua elemen array
