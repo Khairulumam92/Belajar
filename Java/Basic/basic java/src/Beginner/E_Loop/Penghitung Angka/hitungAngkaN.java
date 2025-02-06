@@ -14,5 +14,6 @@ public class hitungAngkaN {
 
         System.out.println("=== Hasil ===");
         System.out.println("Jumlah angka dari 1 sampai " + angkaN + " adalah : " + totalAngka);
+        System.out.println("terimakasih");
     }
 }
