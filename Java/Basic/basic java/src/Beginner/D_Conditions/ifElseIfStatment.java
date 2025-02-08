@@ -1,17 +1,27 @@
 package Beginner.D_Conditions;
 
+import java.util.Scanner;
+
 public class ifElseIfStatment {
     public static void main(String[] args) {
-        int nilaiPertama = 20, nilaiKedua = 10;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Masukkan angka yang ingin anda pilih(1-3): ");
+        int nilaiPertama = input.nextInt();
 
-        if (nilaiPertama == 10) {
+        /*
+         * dengan if else statement kita bisa membuat opsi juga,
+         * atau jika lebih sederhana bisa menggunakan switch case
+         */
+
+        if (nilaiPertama == 1) {
             System.out.println("Aksi 1");
-        } else if (nilaiPertama < nilaiKedua) {
+        } else if (nilaiPertama == 2) {
             System.out.println("Aksi 2");
-        } else if (nilaiKedua == nilaiPertama) {
+        } else if (nilaiPertama == 3) {
             System.out.println("Aksi 3");
         } else {
             System.out.println("Nilai default");
         }
+        input.close();
     }
 }
