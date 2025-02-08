@@ -7,7 +7,7 @@ public class Condition {
 
         if (nilaiPertama > nilaiKedua) {
             System.out.println("Nilai pertama lebih besar dari nilai kedua");
-        }else{
+        } else {
             System.out.println("Nilai pertama lebih kecil dari nilai kedua");
         }
 
@@ -15,11 +15,11 @@ public class Condition {
 
         if (nilaiPertama > nilaiKedua && iya) {
             System.out.println("Nilai benar if");
-        }else if(nilaiPertama < nilaiKedua && tidak){
+        } else if (nilaiPertama < nilaiKedua && tidak) {
             System.out.println("Nilai benar else if");
-        }else{
+        } else {
             System.out.println("Nilai salah else");
         }
 
-}
+    }
 }
