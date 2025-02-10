@@ -9,7 +9,7 @@ public class switchCase {
 
         System.out.println("Siapakah presiden Indonesia ke-3?");
         System.out.println("a. Bj Habibie\nb. Gus Dur\nc. Megawati\nd. Soeharto");
-        System.out.print("Soal Pilihan Ganda :");
+        System.out.println("Soal Pilihan Ganda :");
         String jawaban = input.next();
 
         switch (jawaban) {
@@ -29,6 +29,5 @@ public class switchCase {
                 System.out.println("Jawaban tidak ada");
         }
         input.close();
-
     }
 }
