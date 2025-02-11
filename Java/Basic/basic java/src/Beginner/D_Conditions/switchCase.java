@@ -29,5 +29,7 @@ public class switchCase {
                 System.out.println("Jawaban tidak ada");
         }
         input.close();
+
+        System.out.println("=== Akhir dari program ===");
     }
 }
