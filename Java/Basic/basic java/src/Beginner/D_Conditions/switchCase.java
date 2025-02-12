@@ -30,6 +30,6 @@ public class switchCase {
         }
         input.close();
 
-        System.out.println("=== Akhir dari program ===");
+        System.out.println("=== Program Selesai ===");
     }
 }
