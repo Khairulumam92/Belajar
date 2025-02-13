@@ -31,5 +31,6 @@ public class switchCase {
         input.close();
 
         System.out.println("=== Program Selesai ===");
+        System.out.println("Terima Kasih");
     }
 }
