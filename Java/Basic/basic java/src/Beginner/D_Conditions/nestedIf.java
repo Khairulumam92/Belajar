@@ -28,5 +28,6 @@ public class nestedIf {
         }
 
         System.out.println("=== Akhir dari program ===");
+        System.out.println("Terima Kasih");
     }
 }
