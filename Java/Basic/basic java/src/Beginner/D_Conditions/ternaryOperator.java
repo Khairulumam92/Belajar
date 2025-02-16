@@ -23,6 +23,7 @@ public class ternaryOperator {
 
         System.out.println("Hasilnya adalah : " + X);
         System.out.println("=== Program Selesai ===");
+        System.out.println("Terima kasih");
 
     }
 }
