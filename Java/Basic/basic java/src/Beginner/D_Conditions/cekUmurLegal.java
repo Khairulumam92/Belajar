@@ -25,5 +25,7 @@ public class cekUmurLegal {
         } else {
             System.out.println("Anda belum cukup umur atau masih muda");
         }
+
+        System.out.println("=== Program Selesai ===");
     }
 }
