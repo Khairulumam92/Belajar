@@ -27,5 +27,6 @@ public class cekUmurLegal {
         }
 
         System.out.println("=== Program Selesai ===");
+        System.out.println("=== Terima Kasih ===");
     }
 }
