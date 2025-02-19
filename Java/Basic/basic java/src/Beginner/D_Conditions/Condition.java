@@ -21,5 +21,7 @@ public class Condition {
             System.out.println("Nilai salah else");
         }
 
+        System.out.println("=== Program Selesai ===");
+        System.out.println("=== Terima Kasih ===");
     }
 }

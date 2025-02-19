@@ -10,5 +10,6 @@ public class ifElseStatment {
             System.out.println("Nilai pertama lebih kecil dari nilai kedua");
         }
         System.out.println("Selesai");
+        System.out.println("Terima Kasih");
     }
 }
