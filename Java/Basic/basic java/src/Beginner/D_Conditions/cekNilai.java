@@ -23,5 +23,8 @@ public class cekNilai {
             System.out.println("Nilai anda E");
         }
 
+        System.out.println("=== Program Selesai ===");
+        System.out.println("Terima Kasih");
+
     }
 }
