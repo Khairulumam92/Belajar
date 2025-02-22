@@ -15,7 +15,7 @@ public class dice {
 
         int wins = 0;
         int losses = 0;
-        
+
         System.out.println("Permainan Dadu Dimulai!");
         System.out.println("Target nilai: " + targetValue);
         System.out.println("Maksimum kemenangan: " + maxWins);
@@ -47,6 +47,7 @@ public class dice {
             System.out.println("Sayang sekali! Anda mencapai batas kekalahan.");
         }
 
+        System.out.println("Terima kasih telah bermain!");
         scanner.close();
     }
 }
