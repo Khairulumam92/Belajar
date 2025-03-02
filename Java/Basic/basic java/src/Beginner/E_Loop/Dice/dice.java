@@ -47,7 +47,7 @@ public class dice {
             System.out.println("Sayang sekali! Anda mencapai batas kekalahan.");
         }
 
-        System.out.println("Terima kasih telah bermain!");
+        System.out.println("--- Terima kasih telah bermain! ---");
         scanner.close();
     }
 }
