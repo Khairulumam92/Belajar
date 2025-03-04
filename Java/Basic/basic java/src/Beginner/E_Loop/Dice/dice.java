@@ -42,7 +42,7 @@ public class dice {
         System.out.println("Total Kekalahan: " + losses);
 
         if (wins == maxWins) {
-            System.out.println("Selamat! Anda mencapai batas kemenangan.");
+            System.out.println("Selamat! Anda mencapai batas kemenangan! ");
         } else {
             System.out.println("Sayang sekali! Anda mencapai batas kekalahan.");
         }
