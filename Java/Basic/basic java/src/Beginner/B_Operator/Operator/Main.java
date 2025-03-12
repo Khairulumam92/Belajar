@@ -6,14 +6,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        //Menu
+        // Menu
 
         // Operator Aritmatika
         System.out.println("===operasi penambahan===");
         Operator penjumlahan = new Operator();
         int a = input.nextInt();
         int b = input.nextInt();
-        //penjumlahan.a;
+        // penjumlahan.a;
         // penjumlahan.b;
         penjumlahan.penjumlahan();
 
@@ -30,8 +30,6 @@ public class Main {
         perkalian.perkalian();
 
         System.out.println("Program Selesai");
-
-        
 
     }
 }
