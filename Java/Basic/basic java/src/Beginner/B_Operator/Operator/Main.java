@@ -3,11 +3,11 @@ package Operator;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         // Menu
-
         // Operator Aritmatika
         System.out.println("===operasi penambahan===");
         Operator penjumlahan = new Operator();
@@ -30,6 +30,7 @@ public class Main {
         perkalian.perkalian();
 
         System.out.println("Program Selesai");
+        System.out.println("===Operasi Pembagian===");
 
     }
 }
