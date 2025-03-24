@@ -29,8 +29,8 @@ public class Main {
         perkalian.b = 20;
         perkalian.perkalian();
 
-        System.out.println("Program Selesai");
         System.out.println("===Operasi Pembagian===");
+        System.out.println("Program Selesai");
 
     }
 }
