@@ -1,9 +1,10 @@
 package Operator;
 
 public class Operator {
+
     int a;
     int b;
-    
+
     void penjumlahan() {
         int hasil = a + b;
         //int a = input.nextInt();
@@ -26,5 +27,4 @@ public class Operator {
         System.out.println("Hasil pembagian: " + hasil);
     }
 
-    
 }

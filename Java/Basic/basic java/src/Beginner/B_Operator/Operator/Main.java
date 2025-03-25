@@ -30,7 +30,7 @@ public class Main {
         perkalian.perkalian();
 
         System.out.println("===Operasi Pembagian===");
-        System.out.println("Program Selesai");
+        System.out.println("===Program Selesai===");
 
     }
 }
