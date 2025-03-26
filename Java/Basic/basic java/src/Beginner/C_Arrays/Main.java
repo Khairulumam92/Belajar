@@ -1,8 +1,9 @@
 package Beginner.C_Arrays;
 
 public class Main {
+
     public static void main(String[] args) {
-        int[] arrayAngka = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
+        int[] arrayAngka = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
 
         // Mengambil data array
         System.out.println("===Mengambil data array===");
@@ -26,7 +27,7 @@ public class Main {
         System.out.println("===Nilai maksimum dalam array===");
         System.out.println("Nilai maksimum: " + findMax(arrayAngka)); // Output: 13
         System.out.println("Program selesai");
-        System.out.println("terima kasih");
+        System.out.println("=== terima kasih ===");
     }
 
     // Metode untuk menghitung jumlah semua elemen array
